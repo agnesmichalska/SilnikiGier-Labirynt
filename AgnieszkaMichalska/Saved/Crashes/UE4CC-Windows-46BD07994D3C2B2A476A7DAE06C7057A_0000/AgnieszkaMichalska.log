@@ -1,0 +1,952 @@
+﻿Log file open, 10/28/20 16:01:27
+LogInit: Display: Running engine for game: AgnieszkaMichalska
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.169469
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz, GPU: NVIDIA GeForce GTX 1660 Ti
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=scoreless97 -epicuserid=ba2404d04ca843048ef9c8a0016db565 -epiclocale=en
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2020.10.28-15.01.27:812][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.28-15.01.27:812][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2020.10.28-15.01.27:812][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2020.10.28-15.01.27:814][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.28-15.01.27:814][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.28-15.01.27:815][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.28-15.01.27:816][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.28-15.01.27:816][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.28-15.01.27:816][  0]LogHAL: Display: Platform has ~ 16 GB [17095684096 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.28-15.01.27:816][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.28-15.01.27:816][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.28-15.01.27:816][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.28-15.01.27:817][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.28-15.01.27:818][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.28-15.01.27:818][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.28-15.01.27:818][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.28-15.01.27:818][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2020.10.28-15.01.27:818][  0]LogInit: Computer: DESKTOP-HVAHQU6
+[2020.10.28-15.01.27:818][  0]LogInit: User: Agnieszka
+[2020.10.28-15.01.27:818][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.10.28-15.01.27:818][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.28-15.01.27:818][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.10.28-15.01.27:818][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.28-15.01.27:818][  0]LogMemory: Process Physical Memory: 113.94 MB used, 113.94 MB peak
+[2020.10.28-15.01.27:818][  0]LogMemory: Process Virtual Memory: 95.68 MB used, 95.68 MB peak
+[2020.10.28-15.01.27:818][  0]LogMemory: Physical Memory: 9315.30 MB used,  6988.41 MB free, 16303.71 MB total
+[2020.10.28-15.01.27:818][  0]LogMemory: Virtual Memory: 5138.86 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.10.28-15.01.27:824][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.28-15.01.27:854][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.28-15.01.27:854][  0]LogInit: Using OS detected language (pl-PL).
+[2020.10.28-15.01.27:854][  0]LogInit: Using OS detected locale (pl-PL).
+[2020.10.28-15.01.27:857][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2020.10.28-15.01.27:857][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2020.10.28-15.01.27:858][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2020.10.28-15.01.27:858][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2020.10.28-15.01.27:858][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2020.10.28-15.01.27:858][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2020.10.28-15.01.27:858][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2020.10.28-15.01.27:858][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2020.10.28-15.01.27:859][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.28-15.01.27:897][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.28-15.01.27:897][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.28-15.01.28:012][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.28-15.01.28:012][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.28-15.01.28:012][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.28-15.01.28:012][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.28-15.01.28:111][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2020.10.28-15.01.28:111][  0]LogD3D11RHI:       5991/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.10.28-15.01.28:113][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.28-15.01.28:113][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.28-15.01.28:113][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.28-15.01.28:123][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.28-15.01.28:123][  0]LogD3D11RHI:     GPU DeviceId: 0x2182 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.28-15.01.28:123][  0]LogWindows: EnumDisplayDevices:
+[2020.10.28-15.01.28:123][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 Ti' (P:1 D:1)
+[2020.10.28-15.01.28:123][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.10.28-15.01.28:124][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.10.28-15.01.28:124][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2020.10.28-15.01.28:124][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.10.28-15.01.28:124][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2020.10.28-15.01.28:124][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.10.28-15.01.28:124][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.10.28-15.01.28:124][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2020.10.28-15.01.28:186][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.28-15.01.28:188][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.10.28-15.01.28:188][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.28-15.01.28:188][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.28-15.01.28:215][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.28-15.01.28:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.28-15.01.28:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.28-15.01.28:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.28-15.01.28:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.28-15.01.28:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.28-15.01.28:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.28-15.01.28:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.28-15.01.28:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.28-15.01.28:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.28-15.01.28:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.28-15.01.28:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.28-15.01.28:508][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.28-15.01.28:508][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.28-15.01.28:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.28-15.01.28:525][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.28-15.01.28:534][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.28-15.01.28:542][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.28-15.01.28:550][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.28-15.01.28:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.28-15.01.28:567][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.28-15.01.28:589][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.28-15.01.28:589][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.28-15.01.28:603][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.28-15.01.28:603][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.28-15.01.28:611][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.28-15.01.28:620][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.28-15.01.28:628][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.28-15.01.28:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.28-15.01.28:636][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.28-15.01.28:643][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.28-15.01.28:696][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Intermediate/Shaders/WorkingDirectory/24284/).
+[2020.10.28-15.01.28:696][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Agnieszka/AppData/Local/Temp/UnrealShaderWorkingDir/45D6D7BA4DEED93675AF6387E079D8E4/'.
+[2020.10.28-15.01.28:696][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.28-15.01.28:696][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.28-15.01.28:696][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.28-15.01.29:364][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.28-15.01.29:409][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/Agnieszka/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.28-15.01.29:409][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Agnieszka/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.28-15.01.29:409][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.28-15.01.29:409][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.28-15.01.29:409][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.28-15.01.29:409][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.28-15.01.29:419][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.28-15.01.29:419][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.28-15.01.29:419][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.28-15.01.29:420][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Agnieszka/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.28-15.01.29:420][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.28-15.01.29:420][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.28-15.01.29:465][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.28-15.01.29:466][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.28-15.01.29:487][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2020.10.28-15.01.29:679][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.28-15.01.29:845][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.28-15.01.29:845][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.28-15.01.29:845][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.28-15.01.29:845][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.28-15.01.29:845][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.28-15.01.29:857][  0]LogNetVersion: AgnieszkaMichalska 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2914683386)
+[2020.10.28-15.01.30:238][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002501D181900), frame # 0
+[2020.10.28-15.01.30:238][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002501D0D2AC0), frame # 0
+[2020.10.28-15.01.30:239][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002501D148A00), frame # 0
+[2020.10.28-15.01.30:667][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.422700 seconds
+[2020.10.28-15.01.30:671][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.28-15.01.30:672][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.28-15.01.30:672][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.28-15.01.31:015][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.28-15.01.31:019][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.28-15.01.31:173][  0]SourceControl: Source control is disabled
+[2020.10.28-15.01.31:173][  0]SourceControl: Source control is disabled
+[2020.10.28-15.01.31:176][  0]SourceControl: Source control is disabled
+[2020.10.28-15.01.31:179][  0]SourceControl: Source control is disabled
+[2020.10.28-15.01.31:185][  0]SourceControl: Source control is disabled
+[2020.10.28-15.01.31:434][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.28-15.01.31:451][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.28-15.01.31:451][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.28-15.01.31:495][  0]LogOcInput: OculusInput pre-init called
+[2020.10.28-15.01.31:505][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.28-15.01.31:505][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.28-15.01.31:558][  0]LogEngine: Initializing Engine...
+[2020.10.28-15.01.31:559][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.28-15.01.31:559][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.28-15.01.31:560][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.28-15.01.31:663][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.28-15.01.31:672][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.28-15.01.31:672][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025022185C00), frame # 0
+[2020.10.28-15.01.31:672][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000250221ADBC0), frame # 0
+[2020.10.28-15.01.31:687][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.28-15.01.31:687][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.28-15.01.31:687][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.28-15.01.31:687][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.28-15.01.31:687][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.28-15.01.31:687][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.28-15.01.31:687][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.28-15.01.31:687][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.28-15.01.31:687][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.28-15.01.31:687][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.28-15.01.31:698][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.28-15.01.31:698][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.28-15.01.31:732][  0]LogAudioMixer: Display: Using Audio Device Speakers (USB Audio Device)
+[2020.10.28-15.01.31:735][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.28-15.01.31:737][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.28-15.01.31:737][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.28-15.01.31:737][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.28-15.01.31:738][  0]LogInit: FAudioDevice initialized.
+[2020.10.28-15.01.31:738][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.28-15.01.31:776][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/Agnieszka/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.28-15.01.31:780][  0]LogInit: Texture streaming: Enabled
+[2020.10.28-15.01.31:794][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.28-15.01.31:794][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.28-15.01.31:796][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.28-15.01.32:122][  0]LogInit: Transaction tracking system initialized
+[2020.10.28-15.01.32:141][  0]BlueprintLog: New page: Editor Load
+[2020.10.28-15.01.32:224][  0]LocalizationService: Localization service is disabled
+[2020.10.28-15.01.32:388][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.28-15.01.32:388][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.28-15.01.32:499][  0]LogFileCache: Scanning file cache for directory 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/' took 0.00s
+[2020.10.28-15.01.32:692][  0]SourceControl: Source control is disabled
+[2020.10.28-15.01.32:693][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.392
+[2020.10.28-15.01.32:693][  0]Cmd: MAP LOAD FILE="E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.28-15.01.32:693][  0]LightingResults: New page: Lighting Build
+[2020.10.28-15.01.32:693][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-15.01.32:693][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-15.01.32:694][  0]MapCheck: New page: Map Check
+[2020.10.28-15.01.32:694][  0]LightingResults: New page: Lighting Build
+[2020.10.28-15.01.32:702][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025022185C00), frame # 0
+[2020.10.28-15.01.32:702][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000250221ADBC0), frame # 0
+[2020.10.28-15.01.32:703][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.10.28-15.01.32:748][  0]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.01.32:748][  0]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.01.32:755][  0]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.01.32:755][  0]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.01.32:758][  0]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.01.32:758][  0]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.01.32:758][  0]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.01.32:758][  0]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.01.32:765][  0]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.01.32:765][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2020.10.28-15.01.32:765][  0]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.01.32:765][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2020.10.28-15.01.32:850][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.28-15.01.32:851][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025022623600), frame # 0
+[2020.10.28-15.01.32:851][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025014315BC0), frame # 0
+[2020.10.28-15.01.32:853][  0]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.28-15.01.32:853][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0' 
+[2020.10.28-15.01.32:860][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.28-15.01.32:869][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.10.28-15.01.32:870][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.28-15.01.32:870][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,093ms to complete.
+[2020.10.28-15.01.32:870][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.178
+[2020.10.28-15.01.32:872][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.571
+[2020.10.28-15.01.33:067][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.28-15.01.33:073][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.28-15.01.33:079][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.28-15.01.33:085][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.28-15.01.33:101][  0]LogCollectionManager: Loaded 0 collections in 0.001475 seconds
+[2020.10.28-15.01.33:184][  0]LogFileCache: Scanning file cache for directory 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Collections/' took 0.00s
+[2020.10.28-15.01.33:184][  0]LogFileCache: Scanning file cache for directory 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/Developers/Agnieszka/Collections/' took 0.00s
+[2020.10.28-15.01.33:184][  0]LogFileCache: Scanning file cache for directory 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/Collections/' took 0.00s
+[2020.10.28-15.01.33:184][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3427 classes and 821 folders.
+[2020.10.28-15.01.33:191][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.28-15.01.33:488][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.28-15.01.33:492][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.10.28-15.01.33:550][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.28-15.01.33:552][  0]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.28-15.01.33:563][  0]LogSlate: Took 0.005308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.28-15.01.33:687][  0]LogRenderer: Reallocating scene render targets to support 1192x572 Format 10 NumSamples 1 (Frame:1).
+[2020.10.28-15.01.33:800][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.28-15.01.33:800][  0]LogLoad: (Engine Initialization) Total time: 7.50 seconds
+[2020.10.28-15.01.33:800][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.28-15.01.33:832][  0]LogAssetRegistry: Asset discovery search completed in 4.3459 seconds
+[2020.10.28-15.01.33:836][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.10.28-15.01.33:838][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.28-15.01.33:930][  0]LogSlate: Took 0.005650 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.28-15.01.33:940][  0]LogSlate: Took 0.006635 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.28-15.06.27:417][133]LogSlate: Window 'Message Log' being destroyed
+[2020.10.28-15.06.27:421][133]LogSlate: Window 'Message Log' being destroyed
+[2020.10.28-15.06.50:539][809]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.28-15.06.50:553][809]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Labirynth.Labirynth
+[2020.10.28-15.06.50:562][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.10.28-15.06.52:164][809]LogSlate: Window 'Save Content' being destroyed
+[2020.10.28-15.06.52:181][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labirynth" FILE="E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/Labirynth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.28-15.06.52:201][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2020.10.28-15.06.52:316][809]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/LabirynthB2E8390E471D3586CB88D9B37DF6B946.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/Labirynth.umap'
+[2020.10.28-15.06.52:338][809]LogFileHelpers: Saving map 'Labirynth' took 0.157
+[2020.10.28-15.06.52:338][809]Cmd: MAP LOAD FILE="E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/Labirynth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.28-15.06.52:338][809]LightingResults: New page: Lighting Build
+[2020.10.28-15.06.52:338][809]LoadErrors: New page: Loading map: Labirynth.umap
+[2020.10.28-15.06.52:378][809]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-15.06.52:378][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-15.06.52:379][809]MapCheck: New page: Map Check
+[2020.10.28-15.06.52:379][809]LightingResults: New page: Lighting Build
+[2020.10.28-15.06.52:387][809]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025022623600), frame # 3809
+[2020.10.28-15.06.52:387][809]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025014315BC0), frame # 3809
+[2020.10.28-15.06.52:388][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.10.28-15.06.52:401][809]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.28-15.06.52:401][809]LogAIModule: Creating AISystem for world Labirynth
+[2020.10.28-15.06.52:401][809]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002500C21EE00), frame # 3809
+[2020.10.28-15.06.52:402][809]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000250227F4180), frame # 3809
+[2020.10.28-15.06.52:410][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.10.28-15.06.52:487][809]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.28-15.06.52:488][809]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,067ms to complete.
+[2020.10.28-15.06.52:488][809]LogFileHelpers: Loading map 'Labirynth' took 0.149
+[2020.10.28-15.06.52:550][809]AssetCheck: New page: Asset Save: Labirynth
+[2020.10.28-15.06.52:550][809]LogContentValidation: Display: Validating World /Game/Labirynth.Labirynth
+[2020.10.28-15.07.01:646][879]LogObjectTools: Deleting 1 worlds: /Game/Labirynth.Labirynth
+[2020.10.28-15.07.01:646][879]LogObjectTools: Currently 1 active worlds: /Game/Labirynth.Labirynth
+[2020.10.28-15.07.02:990][879]LogSlate: Window 'Unable to delete level' being destroyed
+[2020.10.28-15.07.02:995][879]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2020.10.28-15.07.18:394][627]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Advanced_Lighting.umap' failed to load '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData': Can't find file.
+[2020.10.28-15.07.18:394][627]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Advanced_Lighting.umap' failed to load '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData': Can't find file.
+[2020.10.28-15.07.18:427][627]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Advanced_Lighting.umap' failed to load '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData': Can't find file.
+[2020.10.28-15.07.18:427][627]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Advanced_Lighting.umap' failed to load '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData': Can't find file.
+[2020.10.28-15.07.18:428][627]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Advanced_Lighting.umap' failed to load '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData': Can't find file.
+[2020.10.28-15.07.18:428][627]LoadErrors: Failed to load /Game/StarterContent/Maps/Advanced_Lighting_BuiltData.Advanced_Lighting_BuiltData Referenced by PersistentLevel
+[2020.10.28-15.07.18:428][627]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Advanced_Lighting.umap' failed to load '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData': Can't find file.
+[2020.10.28-15.07.21:842][958]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/StarterMap.umap' failed to load '/Game/StarterContent/Maps/StarterMap_BuiltData': Can't find file.
+[2020.10.28-15.07.21:843][958]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/StarterMap.umap' failed to load '/Game/StarterContent/Maps/StarterMap_BuiltData': Can't find file.
+[2020.10.28-15.07.21:915][958]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/StarterMap.umap' failed to load '/Game/StarterContent/Maps/StarterMap_BuiltData': Can't find file.
+[2020.10.28-15.07.21:915][958]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/StarterMap.umap' failed to load '/Game/StarterContent/Maps/StarterMap_BuiltData': Can't find file.
+[2020.10.28-15.07.21:923][958]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/StarterMap_BuiltData': Can't find file.
+[2020.10.28-15.07.21:923][958]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/StarterMap_BuiltData': Can't find file.
+[2020.10.28-15.07.21:923][958]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/StarterMap_BuiltData': Can't find file.
+[2020.10.28-15.07.21:923][958]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/StarterMap_BuiltData': Can't find file.
+[2020.10.28-15.07.21:972][958]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/StarterMap.umap' failed to load '/Game/StarterContent/Maps/StarterMap_BuiltData': Can't find file.
+[2020.10.28-15.07.21:972][958]LoadErrors: Failed to load /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData Referenced by PersistentLevel
+[2020.10.28-15.07.21:972][958]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/StarterMap.umap' failed to load '/Game/StarterContent/Maps/StarterMap_BuiltData': Can't find file.
+[2020.10.28-15.07.22:249][958]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/StarterMap.StarterMap
+[2020.10.28-15.07.22:259][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.10.28-15.07.22:261][958]Cmd: MAP LOAD FILE="E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.28-15.07.22:261][958]LightingResults: New page: Lighting Build
+[2020.10.28-15.07.22:261][958]LoadErrors: New page: Loading map: StarterMap.umap
+[2020.10.28-15.07.22:288][958]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-15.07.22:288][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-15.07.22:288][958]MapCheck: New page: Map Check
+[2020.10.28-15.07.22:288][958]LightingResults: New page: Lighting Build
+[2020.10.28-15.07.22:296][958]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000250227F4180), frame # 6958
+[2020.10.28-15.07.22:296][958]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002500C21EE00), frame # 6958
+[2020.10.28-15.07.22:297][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.10.28-15.07.22:305][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.10.28-15.07.22:314][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.10.28-15.07.22:327][958]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.28-15.07.22:327][958]LogAIModule: Creating AISystem for world StarterMap
+[2020.10.28-15.07.22:327][958]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002502FD80800), frame # 6958
+[2020.10.28-15.07.22:327][958]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025040B5C540), frame # 6958
+[2020.10.28-15.07.22:338][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.10.28-15.07.22:403][958]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.28-15.07.22:403][958]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,086ms to complete.
+[2020.10.28-15.07.22:403][958]LogFileHelpers: Loading map 'StarterMap' took 0.141
+[2020.10.28-15.07.28:341][605]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.28:341][605]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.28:341][605]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.28:341][605]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.28:342][605]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.28:342][605]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.28:342][605]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.28:342][605]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.28:346][605]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.28:346][605]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2020.10.28-15.07.28:346][605]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.28:350][605]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2020.10.28-15.07.28:359][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.10.28-15.07.28:360][605]Cmd: MAP LOAD FILE="E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.28-15.07.28:360][605]LightingResults: New page: Lighting Build
+[2020.10.28-15.07.28:360][605]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2020.10.28-15.07.28:362][605]LogWorld: UWorld::CleanupWorld for StarterMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-15.07.28:362][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-15.07.28:363][605]MapCheck: New page: Map Check
+[2020.10.28-15.07.28:363][605]LightingResults: New page: Lighting Build
+[2020.10.28-15.07.28:372][605]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025040B5C540), frame # 7605
+[2020.10.28-15.07.28:372][605]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002502FD80800), frame # 7605
+[2020.10.28-15.07.28:373][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.10.28-15.07.28:374][605]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.28-15.07.28:374][605]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0' 
+[2020.10.28-15.07.28:375][605]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.28-15.07.28:375][605]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.28-15.07.28:376][605]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025039920400), frame # 7605
+[2020.10.28-15.07.28:376][605]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025040D53D80), frame # 7605
+[2020.10.28-15.07.28:385][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.10.28-15.07.28:447][605]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.28-15.07.28:447][605]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,073ms to complete.
+[2020.10.28-15.07.28:447][605]LogFileHelpers: Loading map 'Minimal_Default' took 0.087
+[2020.10.28-15.07.30:155][796]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Advanced_Lighting.umap' failed to load '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData': Can't find file.
+[2020.10.28-15.07.30:155][796]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Advanced_Lighting.umap' failed to load '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData': Can't find file.
+[2020.10.28-15.07.30:156][796]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Advanced_Lighting.umap' failed to load '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData': Can't find file.
+[2020.10.28-15.07.30:156][796]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Advanced_Lighting.umap' failed to load '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData': Can't find file.
+[2020.10.28-15.07.30:157][796]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Advanced_Lighting.umap' failed to load '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData': Can't find file.
+[2020.10.28-15.07.30:157][796]LoadErrors: Failed to load /Game/StarterContent/Maps/Advanced_Lighting_BuiltData.Advanced_Lighting_BuiltData Referenced by PersistentLevel
+[2020.10.28-15.07.30:157][796]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Advanced_Lighting.umap' failed to load '/Game/StarterContent/Maps/Advanced_Lighting_BuiltData': Can't find file.
+[2020.10.28-15.07.30:160][796]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting
+[2020.10.28-15.07.30:169][796]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.10.28-15.07.30:170][796]Cmd: MAP LOAD FILE="E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Advanced_Lighting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.28-15.07.30:170][796]LightingResults: New page: Lighting Build
+[2020.10.28-15.07.30:170][796]LoadErrors: New page: Loading map: Advanced_Lighting.umap
+[2020.10.28-15.07.30:208][796]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-15.07.30:208][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-15.07.30:208][796]MapCheck: New page: Map Check
+[2020.10.28-15.07.30:208][796]LightingResults: New page: Lighting Build
+[2020.10.28-15.07.30:217][796]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025040D53D80), frame # 7796
+[2020.10.28-15.07.30:217][796]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025039920400), frame # 7796
+[2020.10.28-15.07.30:218][796]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.10.28-15.07.30:220][796]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.28-15.07.30:220][796]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2020.10.28-15.07.30:220][796]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025039920200), frame # 7796
+[2020.10.28-15.07.30:220][796]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025040D1C180), frame # 7796
+[2020.10.28-15.07.30:230][796]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.10.28-15.07.30:294][796]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.28-15.07.30:294][796]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,066ms to complete.
+[2020.10.28-15.07.30:294][796]LogFileHelpers: Loading map 'Advanced_Lighting' took 0.124
+[2020.10.28-15.07.31:873][971]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.31:873][971]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.31:873][971]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.31:873][971]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.31:874][971]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.31:874][971]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.31:874][971]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.31:874][971]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.31:878][971]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.31:878][971]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2020.10.28-15.07.31:878][971]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2020.10.28-15.07.31:882][971]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2020.10.28-15.07.31:890][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.10.28-15.07.31:891][971]Cmd: MAP LOAD FILE="E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.28-15.07.31:891][971]LightingResults: New page: Lighting Build
+[2020.10.28-15.07.31:891][971]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2020.10.28-15.07.31:891][971]LogWorld: UWorld::CleanupWorld for Advanced_Lighting, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-15.07.31:891][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-15.07.31:892][971]MapCheck: New page: Map Check
+[2020.10.28-15.07.31:892][971]LightingResults: New page: Lighting Build
+[2020.10.28-15.07.31:900][971]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025040D1C180), frame # 7971
+[2020.10.28-15.07.31:900][971]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025039920200), frame # 7971
+[2020.10.28-15.07.31:901][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.10.28-15.07.31:902][971]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.28-15.07.31:902][971]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0' 
+[2020.10.28-15.07.31:903][971]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.28-15.07.31:903][971]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.10.28-15.07.31:903][971]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000250395C3E00), frame # 7971
+[2020.10.28-15.07.31:903][971]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025040D520C0), frame # 7971
+[2020.10.28-15.07.31:913][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.10.28-15.07.32:065][971]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.28-15.07.32:065][971]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,077ms to complete.
+[2020.10.28-15.07.32:065][971]LogFileHelpers: Loading map 'Minimal_Default' took 0.174
+[2020.10.28-15.07.57:819][898]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.10.28-15.07.59:822][ 94]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2020.10.28-15.07.59:831][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.10.28-15.08.01:042][ 94]LogSlate: Window 'Save Content' being destroyed
+[2020.10.28-15.08.01:063][ 94]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.28-15.08.01:063][ 94]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2020.10.28-15.08.01:073][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2020.10.28-15.08.01:186][ 94]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth5EA377124D756149D43FD286974ABD28.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2020.10.28-15.08.01:223][ 94]LogFileHelpers: Saving map 'Labirynth' took 0.173
+[2020.10.28-15.08.01:223][ 94]Cmd: MAP LOAD FILE="E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.28-15.08.01:223][ 94]LightingResults: New page: Lighting Build
+[2020.10.28-15.08.01:223][ 94]LoadErrors: New page: Loading map: Labirynth.umap
+[2020.10.28-15.08.01:224][ 94]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.10.28-15.08.01:224][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.28-15.08.01:224][ 94]MapCheck: New page: Map Check
+[2020.10.28-15.08.01:224][ 94]LightingResults: New page: Lighting Build
+[2020.10.28-15.08.01:233][ 94]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025040D520C0), frame # 11094
+[2020.10.28-15.08.01:233][ 94]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000250395C3E00), frame # 11094
+[2020.10.28-15.08.01:234][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.28-15.08.01:235][ 94]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.28-15.08.01:235][ 94]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2020.10.28-15.08.01:237][ 94]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.28-15.08.01:237][ 94]LogAIModule: Creating AISystem for world Labirynth
+[2020.10.28-15.08.01:237][ 94]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025040776200), frame # 11094
+[2020.10.28-15.08.01:237][ 94]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025039EC6980), frame # 11094
+[2020.10.28-15.08.01:246][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.10.28-15.08.01:323][ 94]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.28-15.08.01:335][ 94]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 11,438ms to complete.
+[2020.10.28-15.08.01:335][ 94]LogFileHelpers: Loading map 'Labirynth' took 0.112
+[2020.10.28-15.08.01:405][ 94]AssetCheck: New page: Asset Save: Labirynth
+[2020.10.28-15.08.01:405][ 94]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2020.10.28-15.08.14:929][954]MapCheck: New page: Map Check
+[2020.10.28-15.08.14:939][954]Cmd: MAP REBUILD ALLVISIBLE
+[2020.10.28-15.08.14:939][954]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.10.28-15.08.14:942][954]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=false
+[2020.10.28-15.08.14:943][954]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.10.28-15.08.14:943][954]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2020.10.28-15.08.14:948][954]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2020.10.28-15.08.14:948][954]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2020.10.28-15.08.14:948][954]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2020.10.28-15.08.14:957][954]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.10.28-15.08.14:962][954]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.28-15.08.14:967][954]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.28-15.08.14:968][954]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.28-15.08.14:970][954]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.10.28-15.08.14:970][954]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.10.28-15.08.14:970][954]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.28-15.08.14:971][954]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.28-15.08.14:972][954]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.10.28-15.08.16:291][954]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.10.28-15.08.16:291][954]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.10.28-15.08.16:291][954]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.10.28-15.08.16:291][954]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.10.28-15.08.16:291][954]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.10.28-15.08.16:291][954]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.10.28-15.08.16:291][954]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.10.28-15.08.16:291][954]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.10.28-15.08.16:291][954]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.10.28-15.08.16:291][954]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.10.28-15.08.16:291][954]TextureStreamingBuild: Display: Compiling optional shaders took 1.332 seconds.
+[2020.10.28-15.08.16:332][954]LogLevel: Display: Export Material TexCoord Scales took 0.041 seconds.
+[2020.10.28-15.08.16:334][954]TextureStreamingBuild: Display: Build Texture Streaming took 0.002 seconds.
+[2020.10.28-15.08.16:341][954]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.10.28-15.08.16:345][954]LightingResults: New page: Lighting Build - 28 paź 2020, 17:08:16
+[2020.10.28-15.08.16:375][954]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2020.10.28-15.08.16:375][954]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.10.28-15.08.17:057][954]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.682 s
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: === Handled ensure: ===
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: 
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Core/Private/Math/Matrix.cpp] [Line: 8]
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: Stack: 
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ffa120f4de6 UE4Editor-Core.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ffa11ac8c35 UE4Editor-Core.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f8eb31bb UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f9f16564 UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f9f25474 UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f9f4c44e UE4Editor-Engine.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f7ac3d61 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f7a7aeac UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f7aa4ef8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f7a7bb4d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f7377b96 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f73506db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9efd74aaa UE4Editor-LevelEditor.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9efd93357 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f865f238 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f874b0a9 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f872ae07 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f87c207e UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f87db27e UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f8622dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f86a69cf UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f868f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff9f8682392 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ffa3d797f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ffa3d785c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ffa3d79a609 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ffa3d7817d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ffa8d36e6d8 USER32.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ffa8d36e119 USER32.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ffa3d79bb24 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff6711768c4 UE4Editor.exe!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff67118ba7c UE4Editor.exe!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff67118bb5a UE4Editor.exe!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff67119e31d UE4Editor.exe!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ff6711a145a UE4Editor.exe!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ffa8bd17034 KERNEL32.DLL!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: [Callstack] 0x00007ffa8d63cec1 ntdll.dll!UnknownFunction []
+[2020.10.28-15.08.17:057][954]LogOutputDevice: Error: 
