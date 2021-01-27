@@ -1,0 +1,1498 @@
+﻿Log file open, 01/27/21 05:44:50
+LogInit: Display: Running engine for game: AgnieszkaMichalska
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.176421
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz, GPU: NVIDIA GeForce GTX 1660 Ti
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2021.01.27-04.44.51:105][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.27-04.44.51:105][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2021.01.27-04.44.51:105][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2021.01.27-04.44.51:107][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.27-04.44.51:107][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.27-04.44.51:108][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.27-04.44.51:108][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.27-04.44.51:108][  0]LogHAL: Display: Platform has ~ 16 GB [17095684096 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.27-04.44.51:108][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.27-04.44.51:108][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.27-04.44.51:108][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.27-04.44.51:109][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.27-04.44.51:110][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Config/Windows/Engine.ini]
+[2021.01.27-04.44.51:110][  0]LogInit: Computer: DESKTOP-HVAHQU6
+[2021.01.27-04.44.51:110][  0]LogInit: User: Agnieszka
+[2021.01.27-04.44.51:110][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.01.27-04.44.51:110][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.27-04.44.51:110][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.01.27-04.44.51:110][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.27-04.44.51:110][  0]LogMemory: Process Physical Memory: 114.46 MB used, 114.47 MB peak
+[2021.01.27-04.44.51:110][  0]LogMemory: Process Virtual Memory: 96.08 MB used, 96.08 MB peak
+[2021.01.27-04.44.51:110][  0]LogMemory: Physical Memory: 9944.45 MB used,  6359.26 MB free, 16303.71 MB total
+[2021.01.27-04.44.51:110][  0]LogMemory: Virtual Memory: 5138.87 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2021.01.27-04.44.51:117][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.27-04.44.51:147][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.27-04.44.51:147][  0]LogInit: Using OS detected language (pl-PL).
+[2021.01.27-04.44.51:148][  0]LogInit: Using OS detected locale (pl-PL).
+[2021.01.27-04.44.51:153][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2021.01.27-04.44.51:153][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2021.01.27-04.44.51:153][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2021.01.27-04.44.51:153][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2021.01.27-04.44.51:154][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2021.01.27-04.44.51:154][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2021.01.27-04.44.51:154][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2021.01.27-04.44.51:154][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2021.01.27-04.44.51:155][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.27-04.44.51:189][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.27-04.44.51:189][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.27-04.44.51:306][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.27-04.44.51:306][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.27-04.44.51:306][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.27-04.44.51:306][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.27-04.44.51:388][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2021.01.27-04.44.51:388][  0]LogD3D11RHI:       5991/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.01.27-04.44.51:390][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.27-04.44.51:390][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.27-04.44.51:390][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.27-04.44.51:398][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.27-04.44.51:398][  0]LogD3D11RHI:     GPU DeviceId: 0x2182 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.27-04.44.51:398][  0]LogWindows: EnumDisplayDevices:
+[2021.01.27-04.44.51:399][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 Ti' (P:1 D:1)
+[2021.01.27-04.44.51:399][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.01.27-04.44.51:399][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.01.27-04.44.51:399][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.01.27-04.44.51:399][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.01.27-04.44.51:399][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2021.01.27-04.44.51:399][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2021.01.27-04.44.51:399][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2021.01.27-04.44.51:399][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2021.01.27-04.44.51:452][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.27-04.44.51:452][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.27-04.44.51:452][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.01.27-04.44.51:477][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.27-04.44.51:729][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.27-04.44.51:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.27-04.44.51:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.27-04.44.51:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.27-04.44.51:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.27-04.44.51:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.27-04.44.51:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.27-04.44.51:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.27-04.44.51:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.27-04.44.51:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.27-04.44.51:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.27-04.44.51:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.27-04.44.51:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.27-04.44.51:778][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.27-04.44.51:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.27-04.44.51:794][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.27-04.44.51:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.27-04.44.51:810][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.27-04.44.51:819][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.27-04.44.51:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.27-04.44.51:849][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.27-04.44.51:849][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.27-04.44.51:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.27-04.44.51:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.27-04.44.51:870][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.27-04.44.51:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.27-04.44.51:887][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.27-04.44.51:895][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.27-04.44.51:895][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.27-04.44.51:902][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.27-04.44.51:955][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Intermediate/Shaders/WorkingDirectory/29012/).
+[2021.01.27-04.44.51:955][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Agnieszka/AppData/Local/Temp/UnrealShaderWorkingDir/AC99807E43EA2B008233EEBFF873FE20/'.
+[2021.01.27-04.44.51:955][  0]LogXGEController: Cleaning working directory: C:/Users/Agnieszka/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.01.27-04.44.51:955][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.27-04.44.51:955][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.27-04.44.51:955][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.27-04.44.52:625][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.27-04.44.52:670][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/Agnieszka/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.27-04.44.52:670][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Agnieszka/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.27-04.44.52:671][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.27-04.44.52:671][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.27-04.44.52:671][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.27-04.44.52:671][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.27-04.44.52:680][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.27-04.44.52:680][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.27-04.44.52:680][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.27-04.44.52:681][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Agnieszka/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.27-04.44.52:681][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.27-04.44.52:681][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.27-04.44.52:726][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.27-04.44.52:727][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.27-04.44.52:749][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2021.01.27-04.44.52:938][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.27-04.44.53:066][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.27-04.44.53:066][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.27-04.44.53:066][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.27-04.44.53:066][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.27-04.44.53:066][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.27-04.44.53:078][  0]LogNetVersion: AgnieszkaMichalska 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2914683386)
+[2021.01.27-04.44.53:450][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001FC02DE98C0), frame # 0
+[2021.01.27-04.44.53:450][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC02D4AAC0), frame # 0
+[2021.01.27-04.44.53:451][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC02DB0800), frame # 0
+[2021.01.27-04.44.53:804][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.347697 seconds
+[2021.01.27-04.44.53:808][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.01.27-04.44.53:808][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.01.27-04.44.53:808][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.27-04.44.54:132][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.27-04.44.54:137][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.27-04.44.54:289][  0]SourceControl: Source control is disabled
+[2021.01.27-04.44.54:289][  0]SourceControl: Source control is disabled
+[2021.01.27-04.44.54:292][  0]SourceControl: Source control is disabled
+[2021.01.27-04.44.54:295][  0]SourceControl: Source control is disabled
+[2021.01.27-04.44.54:302][  0]SourceControl: Source control is disabled
+[2021.01.27-04.44.54:561][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.27-04.44.54:580][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.27-04.44.54:580][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.27-04.44.54:624][  0]LogOcInput: OculusInput pre-init called
+[2021.01.27-04.44.54:634][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.01.27-04.44.54:634][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.01.27-04.44.54:687][  0]LogEngine: Initializing Engine...
+[2021.01.27-04.44.54:688][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.27-04.44.54:688][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.01.27-04.44.54:689][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.27-04.44.54:795][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.27-04.44.54:802][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.27-04.44.54:802][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC05F45C00), frame # 0
+[2021.01.27-04.44.54:802][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC05F6DD00), frame # 0
+[2021.01.27-04.44.54:821][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-04.44.54:821][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-04.44.54:821][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-04.44.54:821][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-04.44.54:821][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-04.44.54:821][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-04.44.54:821][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-04.44.54:821][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-04.44.54:821][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-04.44.54:821][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-04.44.54:832][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-04.44.54:832][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-04.44.54:866][  0]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-04.44.54:871][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-04.44.54:873][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-04.44.54:873][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-04.44.54:874][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-04.44.54:875][  0]LogInit: FAudioDevice initialized.
+[2021.01.27-04.44.54:875][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.27-04.44.54:910][  0]LogDerivedDataCache: Saved boot cache 0.03s 75MB C:/Users/Agnieszka/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.27-04.44.54:915][  0]LogInit: Texture streaming: Enabled
+[2021.01.27-04.44.54:929][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.27-04.44.54:929][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.27-04.44.54:931][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.27-04.44.55:184][  0]LogInit: Transaction tracking system initialized
+[2021.01.27-04.44.55:203][  0]BlueprintLog: New page: Editor Load
+[2021.01.27-04.44.55:284][  0]LocalizationService: Localization service is disabled
+[2021.01.27-04.44.55:449][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.27-04.44.55:449][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.27-04.44.55:563][  0]LogFileCache: Scanning file cache for directory 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/' took 0.00s
+[2021.01.27-04.44.55:745][  0]SourceControl: Source control is disabled
+[2021.01.27-04.44.55:745][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.443
+[2021.01.27-04.44.55:745][  0]Cmd: MAP LOAD FILE="E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.27-04.44.55:746][  0]LightingResults: New page: Lighting Build
+[2021.01.27-04.44.55:746][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-04.44.55:746][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-04.44.55:746][  0]MapCheck: New page: Map Check
+[2021.01.27-04.44.55:746][  0]LightingResults: New page: Lighting Build
+[2021.01.27-04.44.55:755][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC05F45C00), frame # 0
+[2021.01.27-04.44.55:755][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC05F6DD00), frame # 0
+[2021.01.27-04.44.55:755][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.01.27-04.44.55:801][  0]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2021.01.27-04.44.55:801][  0]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2021.01.27-04.44.55:807][  0]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2021.01.27-04.44.55:807][  0]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2021.01.27-04.44.55:810][  0]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2021.01.27-04.44.55:810][  0]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2021.01.27-04.44.55:810][  0]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2021.01.27-04.44.55:810][  0]LogLinker: Warning: Failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2021.01.27-04.44.55:819][  0]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2021.01.27-04.44.55:819][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2021.01.27-04.44.55:819][  0]LogLinker: Warning: While loading 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Minimal_Default.umap' failed to load '/Game/StarterContent/Maps/Minimal_Default_BuiltData': Can't find file.
+[2021.01.27-04.44.55:819][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2021.01.27-04.44.55:876][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.01.27-04.44.55:876][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC0B588200), frame # 0
+[2021.01.27-04.44.55:876][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC0C5E1F80), frame # 0
+[2021.01.27-04.44.55:878][  0]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-04.44.55:878][  0]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-04.44.55:880][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.27-04.44.55:888][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.01.27-04.44.55:888][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.27-04.44.55:888][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,08ms to complete.
+[2021.01.27-04.44.55:888][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.142
+[2021.01.27-04.44.55:890][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.587
+[2021.01.27-04.44.56:071][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-04.44.56:077][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-04.44.56:082][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-04.44.56:087][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-04.44.56:094][  0]LogCollectionManager: Loaded 0 collections in 0.001430 seconds
+[2021.01.27-04.44.56:104][  0]LogFileCache: Scanning file cache for directory 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Collections/' took 0.00s
+[2021.01.27-04.44.56:104][  0]LogFileCache: Scanning file cache for directory 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/Developers/Agnieszka/Collections/' took 0.00s
+[2021.01.27-04.44.56:104][  0]LogFileCache: Scanning file cache for directory 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/Collections/' took 0.00s
+[2021.01.27-04.44.56:104][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 3427 classes and 821 folders.
+[2021.01.27-04.44.56:106][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.27-04.44.56:168][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.27-04.44.56:169][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.01.27-04.44.56:199][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.27-04.44.56:201][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.27-04.44.56:204][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.27-04.44.56:258][  0]LogRenderer: Reallocating scene render targets to support 1300x468 Format 10 NumSamples 1 (Frame:1).
+[2021.01.27-04.44.56:366][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.27-04.44.56:366][  0]LogLoad: (Engine Initialization) Total time: 7.06 seconds
+[2021.01.27-04.44.56:366][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.27-04.44.56:397][  0]LogAssetRegistry: Asset discovery search completed in 3.6491 seconds
+[2021.01.27-04.44.56:400][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.01.27-04.44.56:401][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.27-04.44.56:478][  0]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.27-04.44.56:482][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.27-04.44.57:414][ 97]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.27-04.44.58:196][147]LogSlate: Window 'Message Log' being destroyed
+[2021.01.27-04.44.58:200][147]LogSlate: Window 'Message Log' being destroyed
+[2021.01.27-04.44.59:404][284]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-04.44.59:413][284]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.01.27-04.44.59:414][284]Cmd: MAP LOAD FILE="E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.27-04.44.59:414][284]LightingResults: New page: Lighting Build
+[2021.01.27-04.44.59:414][284]LoadErrors: New page: Loading map: Labirynth.umap
+[2021.01.27-04.44.59:443][284]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-04.44.59:443][284]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-04.44.59:443][284]MapCheck: New page: Map Check
+[2021.01.27-04.44.59:443][284]LightingResults: New page: Lighting Build
+[2021.01.27-04.44.59:451][284]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC0B588200), frame # 284
+[2021.01.27-04.44.59:452][284]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC0C5E1F80), frame # 284
+[2021.01.27-04.44.59:452][284]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.01.27-04.44.59:453][284]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-04.44.59:453][284]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-04.44.59:454][284]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.27-04.44.59:454][284]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-04.44.59:454][284]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC0B53D000), frame # 284
+[2021.01.27-04.44.59:454][284]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC0C5E2340), frame # 284
+[2021.01.27-04.44.59:464][284]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.01.27-04.44.59:535][284]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.27-04.44.59:535][284]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,068ms to complete.
+[2021.01.27-04.44.59:535][284]LogFileHelpers: Loading map 'Labirynth' took 0.121
+[2021.01.27-04.48.02:879][729]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Labirynth.Labirynth:PersistentLevel.Labirynth
+[2021.01.27-04.48.03:388][729]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 125 classes and 0 folders.
+[2021.01.27-04.48.04:058][729]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.27-04.48.04:095][730]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.27-05.02.31:539][633]LogActorFactory: Actor Factory created MaterialSphere
+[2021.01.27-05.02.32:365][732]LogActorFactory: Actor Factory created MaterialSphere
+[2021.01.27-05.02.41:065][716]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.01.27-05.02.41:068][716]LogMaterial: Warning: /Engine/Transient.Material_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.01.27-05.02.41:069][716]LogMaterial: Display: 	SceneTexture expressions cannot be used in opaque materials
+[2021.01.27-05.02.55:000][361]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.27-05.03.38:072][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.01.27-05.03.38:285][478]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/LabirynthE9D9C8444F81FEE3071998B672D05034.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-05.03.38:720][478]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth_BuiltData8D217C1E497C442E549EB88103BFF5AB.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth_BuiltData.uasset'
+[2021.01.27-05.03.38:742][478]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.27-05.03.38:742][478]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-05.03.38:742][478]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Labirynth_BuiltData.Labirynth_BuiltData
+[2021.01.27-05.03.50:184][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (labirynt)
+[2021.01.27-05.03.56:244][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MaterialSphere)
+[2021.01.27-05.03.59:097][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (labirynt)
+[2021.01.27-05.04.03:447][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MaterialSphere)
+[2021.01.27-05.04.13:148][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MaterialSphere)
+[2021.01.27-05.04.39:408][100]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.01.27-05.04.39:531][100]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth938F1CD64C4F60D011444B9122F0448B.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-05.04.39:789][100]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth_BuiltData5D388F2B412677074F6038BA4F2BA49E.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth_BuiltData.uasset'
+[2021.01.27-05.04.39:815][100]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.27-05.04.39:815][100]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-05.04.39:815][100]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Labirynth_BuiltData.Labirynth_BuiltData
+[2021.01.27-05.16.39:242][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.01.27-05.16.39:303][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.01.27-05.16.39:409][194]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth0179ABD94C46F3381241D5A6E99588D2.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-05.16.39:512][194]LogFileHelpers: Saving map 'Labirynth' took 0.236
+[2021.01.27-05.16.39:830][194]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth_BuiltDataCDFD424A4235302B11078CB1CFE5D6C4.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth_BuiltData.uasset'
+[2021.01.27-05.16.39:858][194]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.27-05.16.39:858][194]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-05.16.39:858][194]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Labirynth_BuiltData.Labirynth_BuiltData
+[2021.01.27-05.21.04:556][814]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-05.21.04:900][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-05.21.04:900][814]PIE: New page: PIE session: Labirynth (27 sty 2021, 07:21:04)
+[2021.01.27-05.21.04:901][814]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.01.27-05.21.04:902][814]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.01.27-05.21.04:902][814]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.21.04:905][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003116s)
+[2021.01.27-05.21.04:906][814]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-05.21.04:906][814]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FCA0483E00), frame # 70814
+[2021.01.27-05.21.04:906][814]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC1D54B240), frame # 70814
+[2021.01.27-05.21.04:906][814]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2021.01.27-05.21.04:906][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Labirynth.Labirynth to /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth (0.004331s)
+[2021.01.27-05.21.04:927][814]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.01.27-05.21.04:934][814]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-05.21.04:934][814]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-05.21.04:934][814]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-05.21.04:934][814]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-05.21.04:934][814]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-05.21.04:934][814]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-05.21.04:934][814]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-05.21.04:934][814]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-05.21.04:935][814]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-05.21.04:935][814]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-05.21.04:939][814]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-05.21.04:939][814]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-05.21.04:955][814]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-05.21.04:955][814]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-05.21.04:955][814]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-05.21.04:955][814]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-05.21.04:955][814]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-05.21.04:970][814]LogInit: FAudioDevice initialized.
+[2021.01.27-05.21.04:975][814]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-05.21.04:976][814]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-05.21.04:976][814]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-05.21.04:976][814]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth up for play (max tick rate 0) at 2021.01.27-06.21.04
+[2021.01.27-05.21.04:976][814]LogWorld: Bringing up level for play took: 0.000604
+[2021.01.27-05.21.04:977][814]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.01.27-05.21.04:979][814]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.01.27-05.21.04:980][814]PIE: Server logged in
+[2021.01.27-05.21.04:981][814]PIE: Play in editor total start time 0,082 seconds.
+[2021.01.27-05.21.08:083][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.21.08:083][150]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.21.08:083][150]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-05.21.08:083][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.21.08:091][150]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-05.21.08:095][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.21.08:113][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.21.08:140][150]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC1D54B240), frame # 71150
+[2021.01.27-05.21.08:140][150]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FCA0483E00), frame # 71150
+[2021.01.27-05.21.08:162][150]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.01.27-05.21.08:204][151]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.01.27-05.21.11:731][571]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-05.21.11:765][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-05.21.11:765][571]PIE: New page: PIE session: Labirynth (27 sty 2021, 07:21:11)
+[2021.01.27-05.21.11:765][571]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.21.11:768][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002663s)
+[2021.01.27-05.21.11:769][571]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-05.21.11:769][571]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC0C7A2C00), frame # 71571
+[2021.01.27-05.21.11:769][571]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC9AFEFB00), frame # 71571
+[2021.01.27-05.21.11:769][571]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2021.01.27-05.21.11:769][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Labirynth.Labirynth to /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth (0.003657s)
+[2021.01.27-05.21.11:804][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.01.27-05.21.11:805][571]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-05.21.11:805][571]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-05.21.11:805][571]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-05.21.11:805][571]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-05.21.11:805][571]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-05.21.11:805][571]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-05.21.11:805][571]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-05.21.11:805][571]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-05.21.11:805][571]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-05.21.11:805][571]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-05.21.11:808][571]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-05.21.11:808][571]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-05.21.11:823][571]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-05.21.11:823][571]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-05.21.11:823][571]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-05.21.11:823][571]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-05.21.11:823][571]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-05.21.11:837][571]LogInit: FAudioDevice initialized.
+[2021.01.27-05.21.11:843][571]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-05.21.11:844][571]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-05.21.11:844][571]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-05.21.11:845][571]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth up for play (max tick rate 0) at 2021.01.27-06.21.11
+[2021.01.27-05.21.11:845][571]LogWorld: Bringing up level for play took: 0.000535
+[2021.01.27-05.21.11:845][571]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.01.27-05.21.11:846][571]PIE: Server logged in
+[2021.01.27-05.21.11:847][571]PIE: Play in editor total start time 0,082 seconds.
+[2021.01.27-05.21.14:593][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.21.14:593][891]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.21.14:593][891]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-05.21.14:593][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.21.14:599][891]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-05.21.14:602][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.21.14:636][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.21.14:636][891]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC9AFEFB00), frame # 71891
+[2021.01.27-05.21.14:636][891]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC0C7A2C00), frame # 71891
+[2021.01.27-05.21.14:638][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.01.27-05.21.14:681][892]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.01.27-05.21.17:006][170]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ball)
+[2021.01.27-05.21.19:099][415]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-05.21.19:133][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-05.21.19:133][415]PIE: New page: PIE session: Labirynth (27 sty 2021, 07:21:19)
+[2021.01.27-05.21.19:133][415]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.21.19:136][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002635s)
+[2021.01.27-05.21.19:137][415]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-05.21.19:137][415]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC9AB32E00), frame # 72415
+[2021.01.27-05.21.19:137][415]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC9BFC6D40), frame # 72415
+[2021.01.27-05.21.19:137][415]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2021.01.27-05.21.19:137][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Labirynth.Labirynth to /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth (0.003545s)
+[2021.01.27-05.21.19:156][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.01.27-05.21.19:157][415]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-05.21.19:157][415]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-05.21.19:157][415]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-05.21.19:157][415]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-05.21.19:157][415]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-05.21.19:157][415]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-05.21.19:157][415]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-05.21.19:157][415]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-05.21.19:157][415]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-05.21.19:157][415]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-05.21.19:161][415]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-05.21.19:161][415]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-05.21.19:175][415]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-05.21.19:175][415]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-05.21.19:175][415]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-05.21.19:175][415]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-05.21.19:175][415]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-05.21.19:189][415]LogInit: FAudioDevice initialized.
+[2021.01.27-05.21.19:197][415]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-05.21.19:198][415]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-05.21.19:198][415]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-05.21.19:198][415]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth up for play (max tick rate 0) at 2021.01.27-06.21.19
+[2021.01.27-05.21.19:199][415]LogWorld: Bringing up level for play took: 0.000521
+[2021.01.27-05.21.19:199][415]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.01.27-05.21.19:200][415]PIE: Server logged in
+[2021.01.27-05.21.19:201][415]PIE: Play in editor total start time 0,068 seconds.
+[2021.01.27-05.21.22:773][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.21.22:773][835]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.21.22:774][835]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-05.21.22:774][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.21.22:783][835]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-05.21.22:786][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.21.22:804][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.21.22:820][835]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC9BFC6D40), frame # 72835
+[2021.01.27-05.21.22:820][835]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC9AB32E00), frame # 72835
+[2021.01.27-05.21.22:822][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.01.27-05.21.22:864][836]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.01.27-05.21.24:806][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ball)
+[2021.01.27-05.21.36:533][469]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-05.21.36:567][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-05.21.36:567][469]PIE: New page: PIE session: Labirynth (27 sty 2021, 07:21:36)
+[2021.01.27-05.21.36:567][469]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.21.36:570][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002688s)
+[2021.01.27-05.21.36:571][469]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-05.21.36:571][469]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC1835FE00), frame # 74469
+[2021.01.27-05.21.36:571][469]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC9C361BC0), frame # 74469
+[2021.01.27-05.21.36:571][469]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2021.01.27-05.21.36:571][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Labirynth.Labirynth to /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth (0.003694s)
+[2021.01.27-05.21.36:590][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.01.27-05.21.36:591][469]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-05.21.36:591][469]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-05.21.36:591][469]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-05.21.36:591][469]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-05.21.36:591][469]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-05.21.36:591][469]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-05.21.36:591][469]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-05.21.36:591][469]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-05.21.36:592][469]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-05.21.36:592][469]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-05.21.36:595][469]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-05.21.36:595][469]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-05.21.36:609][469]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-05.21.36:609][469]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-05.21.36:609][469]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-05.21.36:609][469]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-05.21.36:610][469]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-05.21.36:623][469]LogInit: FAudioDevice initialized.
+[2021.01.27-05.21.36:628][469]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-05.21.36:629][469]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-05.21.36:629][469]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-05.21.36:630][469]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth up for play (max tick rate 0) at 2021.01.27-06.21.36
+[2021.01.27-05.21.36:630][469]LogWorld: Bringing up level for play took: 0.000535
+[2021.01.27-05.21.36:630][469]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.01.27-05.21.36:631][469]PIE: Server logged in
+[2021.01.27-05.21.36:632][469]PIE: Play in editor total start time 0,066 seconds.
+[2021.01.27-05.21.38:914][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.21.38:914][734]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.21.38:914][734]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-05.21.38:914][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.21.38:922][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-05.21.38:925][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.21.38:943][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.21.38:959][734]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC9C361BC0), frame # 74734
+[2021.01.27-05.21.38:960][734]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC1835FE00), frame # 74734
+[2021.01.27-05.21.38:961][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.01.27-05.21.39:003][735]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.01.27-05.21.39:703][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (labirynt)
+[2021.01.27-05.21.58:967][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.01.27-05.21.59:018][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.01.27-05.21.59:217][ 41]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/LabirynthCF4B50E94C974EB890441E8BBC248680.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-05.21.59:341][ 41]LogFileHelpers: Saving map 'Labirynth' took 0.353
+[2021.01.27-05.21.59:658][ 41]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth_BuiltDataFEDD173448DA8C839C4C849151852465.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth_BuiltData.uasset'
+[2021.01.27-05.21.59:687][ 41]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.27-05.21.59:687][ 41]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-05.21.59:687][ 41]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Labirynth_BuiltData.Labirynth_BuiltData
+[2021.01.27-05.22.00:294][111]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-05.22.00:334][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-05.22.00:334][111]PIE: New page: PIE session: Labirynth (27 sty 2021, 07:22:00)
+[2021.01.27-05.22.00:335][111]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.22.00:337][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002655s)
+[2021.01.27-05.22.00:338][111]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-05.22.00:338][111]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC1CF15200), frame # 77111
+[2021.01.27-05.22.00:338][111]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC9BFC7380), frame # 77111
+[2021.01.27-05.22.00:338][111]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2021.01.27-05.22.00:338][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Labirynth.Labirynth to /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth (0.003607s)
+[2021.01.27-05.22.00:357][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.01.27-05.22.00:358][111]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-05.22.00:358][111]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-05.22.00:358][111]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-05.22.00:358][111]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-05.22.00:358][111]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-05.22.00:358][111]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-05.22.00:358][111]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-05.22.00:358][111]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-05.22.00:359][111]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-05.22.00:359][111]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-05.22.00:363][111]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-05.22.00:363][111]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-05.22.00:377][111]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-05.22.00:377][111]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-05.22.00:377][111]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-05.22.00:377][111]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-05.22.00:378][111]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-05.22.00:390][111]LogInit: FAudioDevice initialized.
+[2021.01.27-05.22.00:396][111]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-05.22.00:398][111]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-05.22.00:398][111]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-05.22.00:398][111]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth up for play (max tick rate 0) at 2021.01.27-06.22.00
+[2021.01.27-05.22.00:398][111]LogWorld: Bringing up level for play took: 0.000524
+[2021.01.27-05.22.00:398][111]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.01.27-05.22.00:399][111]PIE: Server logged in
+[2021.01.27-05.22.00:400][111]PIE: Play in editor total start time 0,067 seconds.
+[2021.01.27-05.22.02:803][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.22.02:803][392]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.22.02:804][392]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-05.22.02:804][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.22.02:813][392]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-05.22.02:816][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.22.02:834][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.22.02:850][392]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC9BFC7380), frame # 77392
+[2021.01.27-05.22.02:850][392]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC1CF15200), frame # 77392
+[2021.01.27-05.22.02:852][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.01.27-05.22.02:893][393]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.01.27-05.22.05:178][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ball)
+[2021.01.27-05.22.21:544][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (labirynt)
+[2021.01.27-05.22.25:960][108]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-05.22.26:045][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-05.22.26:046][108]PIE: New page: PIE session: Labirynth (27 sty 2021, 07:22:26)
+[2021.01.27-05.22.26:046][108]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.22.26:048][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002637s)
+[2021.01.27-05.22.26:049][108]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-05.22.26:049][108]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC9CEC7200), frame # 80108
+[2021.01.27-05.22.26:049][108]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC9C039440), frame # 80108
+[2021.01.27-05.22.26:049][108]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2021.01.27-05.22.26:049][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Labirynth.Labirynth to /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth (0.003596s)
+[2021.01.27-05.22.26:069][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.01.27-05.22.26:070][108]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-05.22.26:070][108]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-05.22.26:070][108]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-05.22.26:070][108]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-05.22.26:070][108]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-05.22.26:070][108]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-05.22.26:070][108]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-05.22.26:070][108]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-05.22.26:070][108]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-05.22.26:070][108]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-05.22.26:074][108]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-05.22.26:074][108]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-05.22.26:088][108]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-05.22.26:088][108]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-05.22.26:088][108]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-05.22.26:088][108]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-05.22.26:088][108]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-05.22.26:102][108]LogInit: FAudioDevice initialized.
+[2021.01.27-05.22.26:109][108]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-05.22.26:110][108]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-05.22.26:110][108]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-05.22.26:110][108]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth up for play (max tick rate 0) at 2021.01.27-06.22.26
+[2021.01.27-05.22.26:110][108]LogWorld: Bringing up level for play took: 0.000524
+[2021.01.27-05.22.26:110][108]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.01.27-05.22.26:112][108]PIE: Server logged in
+[2021.01.27-05.22.26:112][108]PIE: Play in editor total start time 0,067 seconds.
+[2021.01.27-05.22.28:873][425]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.22.28:873][425]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.22.28:873][425]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-05.22.28:873][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.22.28:881][425]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-05.22.28:884][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.22.28:902][425]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.22.28:919][425]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC9C039440), frame # 80425
+[2021.01.27-05.22.28:919][425]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC9CEC7200), frame # 80425
+[2021.01.27-05.22.28:921][425]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.01.27-05.22.28:969][426]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.01.27-05.22.31:689][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (labirynt)
+[2021.01.27-05.22.41:514][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (labirynt)
+[2021.01.27-05.22.42:686][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ball)
+[2021.01.27-05.24.50:801][366]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (labirynt)
+[2021.01.27-05.24.58:295][219]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Architecture/labirynt.labirynt
+[2021.01.27-05.24.58:713][219]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-05.24.58:713][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.24.59:211][220]LogRenderer: Reallocating scene render targets to support 1300x780 Format 10 NumSamples 1 (Frame:1).
+[2021.01.27-05.25.32:248][ 39]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/labiryntE44D0E874DBD8B2271968FAE2658837B.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Architecture/labirynt.uasset'
+[2021.01.27-05.25.32:284][ 39]AssetCheck: New page: Asset Save: labirynt
+[2021.01.27-05.25.32:284][ 39]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Architecture/labirynt.labirynt
+[2021.01.27-05.25.35:452][387]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2021.01.27-05.25.35:555][387]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth8AA5BBBB4DD867845FEF659C50CA80B5.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-05.25.35:648][387]LogFileHelpers: Saving map 'Labirynth' took 0.267
+[2021.01.27-05.25.35:658][387]AssetCheck: New page: Asset Save: Labirynth
+[2021.01.27-05.25.35:658][387]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-05.25.38:468][711]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-05.25.38:503][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-05.25.38:503][711]PIE: New page: PIE session: Labirynth (27 sty 2021, 07:25:38)
+[2021.01.27-05.25.38:504][711]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.25.38:507][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002959s)
+[2021.01.27-05.25.38:507][711]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-05.25.38:507][711]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC4537B400), frame # 102711
+[2021.01.27-05.25.38:507][711]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC1D3E9300), frame # 102711
+[2021.01.27-05.25.38:507][711]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2021.01.27-05.25.38:507][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Labirynth.Labirynth to /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth (0.003921s)
+[2021.01.27-05.25.38:545][711]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.01.27-05.25.38:546][711]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-05.25.38:546][711]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-05.25.38:546][711]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-05.25.38:546][711]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-05.25.38:546][711]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-05.25.38:546][711]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-05.25.38:546][711]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-05.25.38:546][711]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-05.25.38:547][711]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-05.25.38:547][711]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-05.25.38:550][711]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-05.25.38:550][711]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-05.25.38:566][711]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-05.25.38:566][711]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-05.25.38:566][711]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-05.25.38:566][711]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-05.25.38:567][711]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-05.25.38:580][711]LogInit: FAudioDevice initialized.
+[2021.01.27-05.25.38:586][711]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-05.25.38:587][711]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-05.25.38:587][711]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-05.25.38:587][711]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth up for play (max tick rate 0) at 2021.01.27-06.25.38
+[2021.01.27-05.25.38:587][711]LogWorld: Bringing up level for play took: 0.000521
+[2021.01.27-05.25.38:587][711]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.01.27-05.25.38:589][711]PIE: Server logged in
+[2021.01.27-05.25.38:589][711]PIE: Play in editor total start time 0,087 seconds.
+[2021.01.27-05.25.48:734][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.25.48:734][922]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.25.48:734][922]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-05.25.48:734][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.25.48:743][922]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-05.25.48:746][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.25.48:780][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.25.48:781][922]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC1D3E9300), frame # 103922
+[2021.01.27-05.25.48:781][922]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC4537B400), frame # 103922
+[2021.01.27-05.25.48:783][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.01.27-05.25.48:829][923]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.01.27-05.26.51:940][854]BlueprintLog: New page: Compile Labirynth
+[2021.01.27-05.26.51:972][854]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.01.27-05.26.52:682][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.01.27-05.26.52:759][927]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/LabirynthD09FE6EA4EEECBC4A7EFD8B153E71338.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-05.26.52:873][927]LogFileHelpers: Saving map 'Labirynth' took 0.222
+[2021.01.27-05.26.52:883][927]AssetCheck: New page: Asset Save: Labirynth
+[2021.01.27-05.26.52:883][927]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-05.30.06:167][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.01.27-05.30.06:363][ 83]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth65142EF64B5E203B96E7A0B74DF50FBB.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-05.30.06:482][ 83]LogFileHelpers: Saving map 'Labirynth' took 0.639
+[2021.01.27-05.30.06:512][ 83]AssetCheck: New page: Asset Save: Labirynth
+[2021.01.27-05.30.06:512][ 83]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-05.30.39:324][930]BlueprintLog: New page: Compile Labirynth
+[2021.01.27-05.30.39:357][930]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.01.27-05.30.41:443][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.01.27-05.30.41:591][163]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth704DBCCB433540503A7AC4A69BCBFB2F.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-05.30.41:701][163]LogFileHelpers: Saving map 'Labirynth' took 0.289
+[2021.01.27-05.30.41:711][163]AssetCheck: New page: Asset Save: Labirynth
+[2021.01.27-05.30.41:711][163]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-05.31.06:091][ 61]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-05.31.06:125][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-05.31.06:125][ 61]PIE: New page: PIE session: Labirynth (27 sty 2021, 07:31:06)
+[2021.01.27-05.31.06:155][ 61]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.31.06:158][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002951s)
+[2021.01.27-05.31.06:159][ 61]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-05.31.06:159][ 61]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC453A9800), frame # 139061
+[2021.01.27-05.31.06:159][ 61]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC3E5D5E40), frame # 139061
+[2021.01.27-05.31.06:159][ 61]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2021.01.27-05.31.06:159][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Labirynth.Labirynth to /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth (0.004034s)
+[2021.01.27-05.31.06:179][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.01.27-05.31.06:181][ 61]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-05.31.06:181][ 61]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-05.31.06:181][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-05.31.06:181][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-05.31.06:181][ 61]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-05.31.06:181][ 61]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-05.31.06:181][ 61]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-05.31.06:182][ 61]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-05.31.06:182][ 61]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-05.31.06:182][ 61]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-05.31.06:186][ 61]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-05.31.06:186][ 61]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-05.31.06:202][ 61]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-05.31.06:202][ 61]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-05.31.06:202][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-05.31.06:202][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-05.31.06:202][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-05.31.06:216][ 61]LogInit: FAudioDevice initialized.
+[2021.01.27-05.31.06:223][ 61]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-05.31.06:224][ 61]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-05.31.06:224][ 61]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-05.31.06:224][ 61]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth up for play (max tick rate 0) at 2021.01.27-06.31.06
+[2021.01.27-05.31.06:224][ 61]LogWorld: Bringing up level for play took: 0.000572
+[2021.01.27-05.31.06:224][ 61]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.01.27-05.31.06:226][ 61]PIE: Server logged in
+[2021.01.27-05.31.06:226][ 61]PIE: Play in editor total start time 0,102 seconds.
+[2021.01.27-05.31.45:116][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.31.45:116][718]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.31.45:116][718]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-05.31.45:116][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.31.45:124][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-05.31.45:127][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.31.45:145][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.31.45:162][718]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC3E5D5E40), frame # 143718
+[2021.01.27-05.31.45:162][718]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC453A9800), frame # 143718
+[2021.01.27-05.31.45:164][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.01.27-05.31.45:508][719]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.01.27-05.31.53:985][732]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-05.31.54:020][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-05.31.54:020][732]PIE: New page: PIE session: Labirynth (27 sty 2021, 07:31:54)
+[2021.01.27-05.31.54:045][732]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.31.54:048][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003044s)
+[2021.01.27-05.31.54:049][732]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-05.31.54:049][732]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FCAD77C600), frame # 144732
+[2021.01.27-05.31.54:049][732]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC40EAF240), frame # 144732
+[2021.01.27-05.31.54:049][732]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2021.01.27-05.31.54:050][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Labirynth.Labirynth to /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth (0.004235s)
+[2021.01.27-05.31.54:069][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.01.27-05.31.54:071][732]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-05.31.54:071][732]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-05.31.54:071][732]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-05.31.54:071][732]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-05.31.54:071][732]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-05.31.54:071][732]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-05.31.54:071][732]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-05.31.54:071][732]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-05.31.54:072][732]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-05.31.54:072][732]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-05.31.54:075][732]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-05.31.54:075][732]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-05.31.54:089][732]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-05.31.54:089][732]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-05.31.54:089][732]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-05.31.54:089][732]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-05.31.54:090][732]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-05.31.54:091][732]LogInit: FAudioDevice initialized.
+[2021.01.27-05.31.54:107][732]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-05.31.54:108][732]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-05.31.54:108][732]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-05.31.54:108][732]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth up for play (max tick rate 0) at 2021.01.27-06.31.54
+[2021.01.27-05.31.54:109][732]LogWorld: Bringing up level for play took: 0.000518
+[2021.01.27-05.31.54:109][732]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.01.27-05.31.54:110][732]PIE: Server logged in
+[2021.01.27-05.31.54:111][732]PIE: Play in editor total start time 0,092 seconds.
+[2021.01.27-05.31.57:476][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.31.57:476][131]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-05.31.57:476][131]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-05.31.57:476][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.31.57:481][131]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-05.31.57:484][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-05.31.57:518][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-05.31.57:519][131]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC40EAF240), frame # 145131
+[2021.01.27-05.31.57:519][131]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FCAD77C600), frame # 145131
+[2021.01.27-05.31.57:521][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.01.27-05.31.57:553][132]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.01.27-05.40.59:132][910]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.01.27-05.41.03:912][460]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.01.27-05.42.23:940][269]Cmd: STAT FPS
+[2021.01.27-05.44.27:730][880]BlueprintLog: New page: Compile Labirynth
+[2021.01.27-05.44.27:764][880]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.01.27-05.44.28:831][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.01.27-05.44.28:990][998]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/LabirynthE692FBA74667AA1910ED48A0B8E32810.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-05.44.29:136][998]LogFileHelpers: Saving map 'Labirynth' took 0.337
+[2021.01.27-05.44.29:147][998]AssetCheck: New page: Asset Save: Labirynth
+[2021.01.27-05.44.29:147][998]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-05.54.49:011][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.01.27-05.54.49:288][916]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth_Auto194655E744A544EE7DFA908B312556B79.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Autosaves/Game/StarterContent/Maps/Labirynth_Auto1.umap'
+[2021.01.27-05.54.49:301][916]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Labirynth' took 0.312
+[2021.01.27-05.54.49:301][916]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.312
+[2021.01.27-06.01.12:300][694]BlueprintLog: New page: Compile Labirynth
+[2021.01.27-06.01.12:335][694]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2021.01.27-06.01.14:292][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2021.01.27-06.01.14:513][900]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth8B363F404018A42CBA904BA479413201.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-06.01.14:637][900]LogFileHelpers: Saving map 'Labirynth' took 0.376
+[2021.01.27-06.01.14:647][900]AssetCheck: New page: Asset Save: Labirynth
+[2021.01.27-06.01.14:647][900]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-06.01.16:473][111]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-06.01.16:507][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-06.01.16:508][111]PIE: New page: PIE session: Labirynth (27 sty 2021, 08:01:16)
+[2021.01.27-06.01.16:508][111]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-06.01.16:511][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002888s)
+[2021.01.27-06.01.16:511][111]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-06.01.16:511][111]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC9AB30800), frame # 289111
+[2021.01.27-06.01.16:511][111]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC3DCE0540), frame # 289111
+[2021.01.27-06.01.16:512][111]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2021.01.27-06.01.16:512][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Labirynth.Labirynth to /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth (0.003925s)
+[2021.01.27-06.01.16:532][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.01.27-06.01.16:533][111]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-06.01.16:533][111]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-06.01.16:533][111]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-06.01.16:533][111]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-06.01.16:533][111]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-06.01.16:533][111]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-06.01.16:533][111]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-06.01.16:533][111]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-06.01.16:533][111]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-06.01.16:533][111]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-06.01.16:538][111]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-06.01.16:538][111]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-06.01.16:555][111]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-06.01.16:556][111]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-06.01.16:556][111]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-06.01.16:556][111]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-06.01.16:556][111]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-06.01.16:571][111]LogInit: FAudioDevice initialized.
+[2021.01.27-06.01.16:581][111]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-06.01.16:582][111]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-06.01.16:582][111]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-06.01.16:582][111]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth up for play (max tick rate 0) at 2021.01.27-07.01.16
+[2021.01.27-06.01.16:582][111]LogWorld: Bringing up level for play took: 0.000582
+[2021.01.27-06.01.16:582][111]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.01.27-06.01.16:584][111]PIE: Server logged in
+[2021.01.27-06.01.16:585][111]PIE: Play in editor total start time 0,078 seconds.
+[2021.01.27-06.01.31:337][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-06.01.31:337][870]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-06.01.31:337][870]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-06.01.31:337][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-06.01.31:342][870]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-06.01.31:345][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-06.01.31:363][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-06.01.31:381][870]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC3DCE0540), frame # 290870
+[2021.01.27-06.01.31:381][870]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC9AB30800), frame # 290870
+[2021.01.27-06.01.31:383][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.01.27-06.01.31:429][871]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.01.27-06.11.07:316][773]BlueprintLog: New page: Compile Labirynth
+[2021.01.27-06.11.07:353][773]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.01.27-06.11.08:334][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.01.27-06.11.08:504][878]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth973BF8F7490BB48FF79B8C9462AA153D.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-06.11.08:628][878]LogFileHelpers: Saving map 'Labirynth' took 0.341
+[2021.01.27-06.11.08:639][878]AssetCheck: New page: Asset Save: Labirynth
+[2021.01.27-06.11.08:639][878]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-06.11.10:899][142]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-06.11.10:933][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-06.11.10:934][142]PIE: New page: PIE session: Labirynth (27 sty 2021, 08:11:10)
+[2021.01.27-06.11.10:934][142]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-06.11.10:937][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003258s)
+[2021.01.27-06.11.10:938][142]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-06.11.10:938][142]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC45455A00), frame # 360142
+[2021.01.27-06.11.10:938][142]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC1D3E9440), frame # 360142
+[2021.01.27-06.11.10:938][142]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2021.01.27-06.11.10:938][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Labirynth.Labirynth to /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth (0.004482s)
+[2021.01.27-06.11.10:958][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.01.27-06.11.10:959][142]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-06.11.10:959][142]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-06.11.10:959][142]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-06.11.10:959][142]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-06.11.10:959][142]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-06.11.10:959][142]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-06.11.10:959][142]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-06.11.10:959][142]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-06.11.10:960][142]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-06.11.10:960][142]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-06.11.10:964][142]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-06.11.10:964][142]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-06.11.10:980][142]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-06.11.10:980][142]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-06.11.10:980][142]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-06.11.10:980][142]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-06.11.10:981][142]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-06.11.10:994][142]LogInit: FAudioDevice initialized.
+[2021.01.27-06.11.11:003][142]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-06.11.11:004][142]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-06.11.11:004][142]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-06.11.11:004][142]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth up for play (max tick rate 0) at 2021.01.27-07.11.11
+[2021.01.27-06.11.11:004][142]LogWorld: Bringing up level for play took: 0.000674
+[2021.01.27-06.11.11:004][142]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.01.27-06.11.11:006][142]PIE: Server logged in
+[2021.01.27-06.11.11:007][142]PIE: Play in editor total start time 0,074 seconds.
+[2021.01.27-06.11.20:846][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-06.11.20:846][317]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-06.11.20:846][317]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-06.11.20:846][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-06.11.20:852][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-06.11.20:854][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-06.11.20:873][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-06.11.20:892][317]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC1D3E9440), frame # 361317
+[2021.01.27-06.11.20:892][317]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC45455A00), frame # 361317
+[2021.01.27-06.11.20:894][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.01.27-06.11.20:940][318]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.01.27-06.21.27:598][827]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.01.27-06.21.27:866][827]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth_Auto2FEA35C0C4F0EF89A33BFC189A3379195.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Autosaves/Game/StarterContent/Maps/Labirynth_Auto2.umap'
+[2021.01.27-06.21.27:880][827]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Labirynth' took 0.303
+[2021.01.27-06.21.27:880][827]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.303
+[2021.01.27-06.23.54:551][779]BlueprintLog: New page: Compile Labirynth
+[2021.01.27-06.23.54:587][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.01.27-06.23.55:540][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2021.01.27-06.23.55:630][880]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth90649680450BA6A8231572B37FC0975F.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-06.23.55:753][880]LogFileHelpers: Saving map 'Labirynth' took 0.249
+[2021.01.27-06.23.55:763][880]AssetCheck: New page: Asset Save: Labirynth
+[2021.01.27-06.23.55:763][880]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-06.23.59:433][306]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-06.23.59:467][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-06.23.59:467][306]PIE: New page: PIE session: Labirynth (27 sty 2021, 08:23:59)
+[2021.01.27-06.23.59:506][306]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-06.23.59:509][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002983s)
+[2021.01.27-06.23.59:510][306]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-06.23.59:510][306]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FCCCDF8400), frame # 410306
+[2021.01.27-06.23.59:510][306]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC3F5D9F80), frame # 410306
+[2021.01.27-06.23.59:510][306]LogPlayLevel: PIE: World Init took: (0.001231s)
+[2021.01.27-06.23.59:510][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Labirynth.Labirynth to /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth (0.004418s)
+[2021.01.27-06.23.59:530][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.01.27-06.23.59:532][306]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-06.23.59:532][306]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-06.23.59:532][306]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-06.23.59:532][306]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-06.23.59:532][306]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-06.23.59:532][306]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-06.23.59:532][306]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-06.23.59:532][306]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-06.23.59:532][306]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-06.23.59:532][306]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-06.23.59:536][306]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-06.23.59:536][306]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-06.23.59:552][306]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-06.23.59:552][306]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-06.23.59:552][306]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-06.23.59:553][306]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-06.23.59:553][306]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-06.23.59:567][306]LogInit: FAudioDevice initialized.
+[2021.01.27-06.23.59:572][306]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-06.23.59:573][306]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-06.23.59:573][306]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-06.23.59:573][306]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth up for play (max tick rate 0) at 2021.01.27-07.23.59
+[2021.01.27-06.23.59:573][306]LogWorld: Bringing up level for play took: 0.000577
+[2021.01.27-06.23.59:573][306]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.01.27-06.23.59:575][306]PIE: Server logged in
+[2021.01.27-06.23.59:575][306]PIE: Play in editor total start time 0,109 seconds.
+[2021.01.27-06.24.31:956][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-06.24.31:956][184]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-06.24.31:956][184]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-06.24.31:957][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-06.24.31:962][184]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-06.24.31:965][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-06.24.31:983][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-06.24.32:001][184]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC3F5D9F80), frame # 414184
+[2021.01.27-06.24.32:001][184]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FCCCDF8400), frame # 414184
+[2021.01.27-06.24.32:003][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.01.27-06.24.32:348][185]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.01.27-06.26.05:482][ 91]BlueprintLog: New page: Compile Labirynth
+[2021.01.27-06.26.05:517][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.01.27-06.26.06:457][187]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.01.27-06.26.06:538][187]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth8B51DD7A4A599415170918A0ABD74253.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-06.26.06:673][187]LogFileHelpers: Saving map 'Labirynth' took 0.298
+[2021.01.27-06.26.06:684][187]AssetCheck: New page: Asset Save: Labirynth
+[2021.01.27-06.26.06:684][187]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-06.26.10:580][632]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-06.26.10:614][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-06.26.10:614][632]PIE: New page: PIE session: Labirynth (27 sty 2021, 08:26:10)
+[2021.01.27-06.26.10:646][632]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-06.26.10:649][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002985s)
+[2021.01.27-06.26.10:650][632]LogAIModule: Creating AISystem for world Labirynth
+[2021.01.27-06.26.10:650][632]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC0B588A00), frame # 425632
+[2021.01.27-06.26.10:650][632]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC42895E40), frame # 425632
+[2021.01.27-06.26.10:650][632]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2021.01.27-06.26.10:650][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Labirynth.Labirynth to /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth (0.003972s)
+[2021.01.27-06.26.10:670][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.01.27-06.26.10:671][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-06.26.10:671][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-06.26.10:671][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-06.26.10:671][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-06.26.10:671][632]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-06.26.10:671][632]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-06.26.10:671][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-06.26.10:671][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-06.26.10:672][632]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-06.26.10:672][632]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-06.26.10:675][632]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-06.26.10:675][632]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-06.26.10:691][632]LogAudioMixer: Display: Using Audio Device Speakers (2 — USB Audio Device)
+[2021.01.27-06.26.10:691][632]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-06.26.10:691][632]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-06.26.10:691][632]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-06.26.10:691][632]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-06.26.10:705][632]LogInit: FAudioDevice initialized.
+[2021.01.27-06.26.10:710][632]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-06.26.10:711][632]LogPhysics: Warning: Scale for /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2021.01.27-06.26.10:711][632]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth:PersistentLevel.Statue.StaticMeshComponent0' 
+[2021.01.27-06.26.10:711][632]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Labirynth.Labirynth up for play (max tick rate 0) at 2021.01.27-07.26.10
+[2021.01.27-06.26.10:711][632]LogWorld: Bringing up level for play took: 0.000530
+[2021.01.27-06.26.10:711][632]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.01.27-06.26.10:713][632]PIE: Server logged in
+[2021.01.27-06.26.10:714][632]PIE: Play in editor total start time 0,101 seconds.
+[2021.01.27-06.26.19:336][660]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-06.26.19:336][660]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Labirynth
+[2021.01.27-06.26.19:337][660]LogWorld: UWorld::CleanupWorld for Labirynth, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-06.26.19:337][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-06.26.19:344][660]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-06.26.19:348][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-06.26.19:367][660]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-06.26.19:383][660]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC42895E40), frame # 426660
+[2021.01.27-06.26.19:384][660]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC0B588A00), frame # 426660
+[2021.01.27-06.26.19:385][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.01.27-06.26.19:432][661]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.01.27-06.27.45:236][555]BlueprintLog: New page: Compile Labirynth
+[2021.01.27-06.27.45:271][555]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.01.27-06.28.04:220][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.01.27-06.28.04:409][317]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth145270BD4DD53A28128D3BBC6D5721BF.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-06.28.04:549][317]LogFileHelpers: Saving map 'Labirynth' took 0.666
+[2021.01.27-06.28.04:586][317]AssetCheck: New page: Asset Save: Labirynth
+[2021.01.27-06.28.04:586][317]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-06.28.44:906][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.01.27-06.28.45:000][159]LogSavePackage: Moving 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Saved/Labirynth58CA77264D31E18C83BAF99D4DFB404D.tmp' to 'E:/University Slaski/Silniki/GIT Sourcetree/AgnieszkaMichalska/Content/StarterContent/Maps/Labirynth.umap'
+[2021.01.27-06.28.45:127][159]LogFileHelpers: Saving map 'Labirynth' took 0.677
+[2021.01.27-06.28.45:171][159]AssetCheck: New page: Asset Save: Labirynth
+[2021.01.27-06.28.45:171][159]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Labirynth.Labirynth
+[2021.01.27-06.38.16:724][889]LogHttp: Warning: 000001FC41F6C800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B555206F0-4F1C-7BD5-5FA8-23AEE09ED5B9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=4ba750b549f40a5b4d5d8e916e26e9fd%7Cba2404d04ca843048ef9c8a0016db565%7C1ba18274-d0d8-4c16-89e3-9431264402ae&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.01.27-06.38.16:725][889]LogHttp: Warning: 000001FC41F6C800: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.01.27-06.38.16:725][889]LogHttp: Warning: 000001FC41F6C800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fc6337ff70 [can pipeline])
+[2021.01.27-06.38.16:725][889]LogHttp: Warning: 000001FC41F6C800: libcurl info message cache 1 (Re-using existing connection! (#30) with host datarouter.ol.epicgames.com)
+[2021.01.27-06.38.16:725][889]LogHttp: Warning: 000001FC41F6C800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.174.87.144) port 443 (#30))
+[2021.01.27-06.38.16:725][889]LogHttp: Warning: 000001FC41F6C800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.01.27-06.38.16:725][889]LogHttp: Warning: 000001FC41F6C800: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.01.27-06.38.16:725][889]LogHttp: Warning: 000001FC41F6C800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.01.27-06.38.16:725][889]LogHttp: Warning: 000001FC41F6C800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.01.27-06.38.16:725][889]LogHttp: Warning: 000001FC41F6C800: libcurl info message cache 7 (Closing connection 30)
+[2021.01.27-06.38.17:062][890]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B555206F0-4F1C-7BD5-5FA8-23AEE09ED5B9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=4ba750b549f40a5b4d5d8e916e26e9fd%7Cba2404d04ca843048ef9c8a0016db565%7C1ba18274-d0d8-4c16-89e3-9431264402ae&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.01.27-06.40.38:237][311]LogHttp: Warning: 000001FC669D8F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B555206F0-4F1C-7BD5-5FA8-23AEE09ED5B9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=4ba750b549f40a5b4d5d8e916e26e9fd%7Cba2404d04ca843048ef9c8a0016db565%7C1ba18274-d0d8-4c16-89e3-9431264402ae&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.01.27-06.40.38:238][311]LogHttp: Warning: 000001FC669D8F00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2021.01.27-06.40.38:238][311]LogHttp: Warning: 000001FC669D8F00: libcurl info message cache 0 (  Trying 10.0.0.1...)
+[2021.01.27-06.40.38:238][311]LogHttp: Warning: 000001FC669D8F00: libcurl info message cache 1 (TCP_NODELAY set)
+[2021.01.27-06.40.38:238][311]LogHttp: Warning: 000001FC669D8F00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2021.01.27-06.40.38:238][311]LogHttp: Warning: 000001FC669D8F00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2021.01.27-06.40.38:238][311]LogHttp: Warning: 000001FC669D8F00: libcurl info message cache 4 (Closing connection 31)
+[2021.01.27-06.40.38:572][312]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B555206F0-4F1C-7BD5-5FA8-23AEE09ED5B9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=4ba750b549f40a5b4d5d8e916e26e9fd%7Cba2404d04ca843048ef9c8a0016db565%7C1ba18274-d0d8-4c16-89e3-9431264402ae&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.01.27-06.42.59:789][733]LogHttp: Warning: 000001FCC9358800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B555206F0-4F1C-7BD5-5FA8-23AEE09ED5B9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=4ba750b549f40a5b4d5d8e916e26e9fd%7Cba2404d04ca843048ef9c8a0016db565%7C1ba18274-d0d8-4c16-89e3-9431264402ae&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.01.27-06.42.59:789][733]LogHttp: Warning: 000001FCC9358800: request failed, libcurl error: 7 (Couldn't connect to server)
+[2021.01.27-06.42.59:789][733]LogHttp: Warning: 000001FCC9358800: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2021.01.27-06.42.59:789][733]LogHttp: Warning: 000001FCC9358800: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2021.01.27-06.42.59:789][733]LogHttp: Warning: 000001FCC9358800: libcurl info message cache 2 (TCP_NODELAY set)
+[2021.01.27-06.42.59:789][733]LogHttp: Warning: 000001FCC9358800: libcurl info message cache 3 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2021.01.27-06.42.59:789][733]LogHttp: Warning: 000001FCC9358800: libcurl info message cache 4 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2021.01.27-06.42.59:789][733]LogHttp: Warning: 000001FCC9358800: libcurl info message cache 5 (Closing connection 32)
+[2021.01.27-06.43.00:122][734]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B555206F0-4F1C-7BD5-5FA8-23AEE09ED5B9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=4ba750b549f40a5b4d5d8e916e26e9fd%7Cba2404d04ca843048ef9c8a0016db565%7C1ba18274-d0d8-4c16-89e3-9431264402ae&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.01.27-09.43.38:695][ 52]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp:348 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_REMOVED
+[2021.01.27-09.43.38:695][ 52]LogD3D11RHI: [Aftermath] GDynamicRHI=000001FC61F100C0, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2021.01.27-09.43.38:695][ 52]LogWindows: Windows GetLastError: Operacja ukończona pomyślnie. (0)
